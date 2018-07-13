@@ -28,3 +28,4 @@ class Matrix:
     def display(self):
         """Display the content in the matrix"""
         pass
+
