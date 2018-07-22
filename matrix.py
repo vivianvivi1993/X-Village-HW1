@@ -8,6 +8,7 @@ class Matrix():
         import random
         self.rows=int(input("Enter A matrix's rows:"))
         self.cols=int(input("Enter A matrix's cols:"))
+        print("Matrix A",(self.rows,self.cols))
         for i in range(0,self.cols):   
             self.a.append([])
             self.b.append([])
@@ -21,7 +22,7 @@ class Matrix():
         print("====================================")
         self.rows=int(input("Enter B matrix's rows:"))
         self.cols=int(input("Enter B matrix's cols:"))
-        print("Matrix A",(self.rows,self.cols))
+        print("Matrix B",(self.rows,self.cols))
         for i in self.b:
             for j in i:
                 print(j,end=" ")
